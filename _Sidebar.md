@@ -1,4 +1,4 @@
-[[Home]]
+[[Azure Monitor Addon For Splunk]]
 * [[Operational Overview | operational-overview]]
 * [[Security Overview | security-overview]]
 * [[Installation | installation]]
