@@ -4,5 +4,5 @@ Azure Monitor Add-on For Splunk has two basic functions: logs and metrics. Logs 
 
 The packages in this repo do not contain the dependency packages for either language environment, so they must be installed after the SPL package is installed into your Splunk environment.  
 
-[[Windows | installation-on-windows]]
+[[Windows | installation-on-windows]]  
 [[Linux | installation-on-linus]]
