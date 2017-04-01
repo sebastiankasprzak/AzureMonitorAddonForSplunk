@@ -1,5 +1,5 @@
 This add-on was built in accordance with the guidelines on these pages:  
-[How to work with modular inputs in the Splunk SDK for JavaScript](http://dev.splunk.com/view/javascript-sdk/SP-CAAAEXM) 
+[How to work with modular inputs in the Splunk SDK for JavaScript](http://dev.splunk.com/view/javascript-sdk/SP-CAAAEXM)   
 [How to work with modular inputs in the Splunk SDK for Python](http://dev.splunk.com/view/python-sdk/SP-CAAAER3)  
 
 I'll refer to Azure Monitor Add-on for Splunk as 'the add-on' further down in this text.
@@ -12,6 +12,7 @@ Here are a few resources if you want to learn more:<br/>
 * [Overview of the Azure Activity Log](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs)
 * [Overview of Metrics in Microsoft Azure](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-metrics)  
 
+## Documentation
 * [[Operational Overview | operational-overview]]
 * [[Security Overview | security-overview]]
 * [[Installation | installation]]
