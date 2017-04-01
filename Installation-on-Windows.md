@@ -6,7 +6,8 @@
 
 ## Python Dependencies
 * Open a command window and execute the following:
-  * Install Python 2.7. Splunk comes with Python embedded, but not pip. Installing Python external to Splunk brings along pip. But not the latest version.
+  * Install Python 2.7. Here's the [link](https://www.python.org/downloads/release/python-2712/).
+  * Splunk comes with Python embedded, but not pip. Installing Python external to Splunk brings along pip. But not the latest version.
   * Install the latest version of pip. 
     Here's how: [Documentation](https://pip.pypa.io/en/stable/installing/)  
   * OR [upgrade pip in place](https://pip.pypa.io/en/stable/installing/#upgrading-pip)
