@@ -1,7 +1,6 @@
 * [[Operational Overview | operational-overview]]
 * [[Security Overview | security-overview]]
 * [[Installation | installation]]
-  * [[Dependencies | installation-of-dependencies]]
   * [[Windows | installation-on-windows]]
   * [[Linux | installation-on-linux]]
 * [[Configuration | configuration]]
