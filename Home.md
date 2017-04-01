@@ -1,10 +1,11 @@
 # Azure Monitor Addon For Splunk
 
-* Operational Overview  
-* Security Overview  
-* Installation  
-    * Windows  
-    * Linux  
-* Configuration  
-    * Splunk
-    * Azure 
+* [[Operational Overview | operational-overview]]
+* Security Overview
+* Installation
+  * Dependencies
+  * Windows
+  * Linux
+* Configuration
+  * Splunk
+  * Azure
