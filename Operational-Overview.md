@@ -25,4 +25,7 @@ Saving the details for later, the following must be in place to see metrics appe
 * Configure each resource with Diagnostic Settings (saying "yes, collect metrics") and Tags (saying, "pass these to Splunk")
 * Configure the add-on with the subscription id of the resources to be monitored.
 
+Not all Azure resources emit metrics via Azure Monitor. Here's a list:  
+[Metrics](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-supported-metrics)  
+
 [[Configuration | configuration]]
