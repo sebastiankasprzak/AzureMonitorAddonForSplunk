@@ -3,7 +3,7 @@
 * Download the SPL package from the packages folder of this repo.
 * In Splunk Web, go to Manage Apps and click "Install app from file". Upload the file you just downloaded.
 * You will get a message warning you that the add-on could not be initialized because dependencies are not included in the package. There are both Python and Node.js dependencies.
-* We need both pip for Python package installation and npm for Node.js package installation. If your machine already has them, feel free to skip those steps.
+* We need both pip for Python package installation and npm for Node.js package installation. This is why we're installing Python and Node. If you already have pip & npm, we don't need to install Python & Node.
 
 ## Python Dependencies
 * Open a command window and execute the following:
