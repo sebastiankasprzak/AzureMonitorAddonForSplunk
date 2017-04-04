@@ -30,6 +30,8 @@ All data inputs need this one. You could use only one of these across all of you
 
 [[images/keyVault1.PNG]]
 
+Let's refer to these credentials as Key Vault Credentials, application id and key. They will NOT be stored in Key Vault.
+
 ### REST API credentials
 
 The metrics data input requires this one. You may use the same Service Principal application for this that you did for Key Vault credentials, or you can create a separate one. This step is performed by the Azure Security Admin persona.
@@ -44,15 +46,29 @@ Either way, you must:
 * In this case the scope is your subscription.
 * Assign your application to the Reader role on the subscription according to the steps in the document.
 
-These values will be stored in your Key Vault.
+Let's refer to these credentials as REST API Credentials, application id and key. They WILL be stored in Key Vault. 
 
 ## Event Hub
 
 Get the policy name and key from your event hub. When your event hub was created, a policy named 'RootManageSharedAccessKey' was created by default and has the necessary permissions. As shown here:
+
 [[images/eventHub1.PNG]]
 
 Click through the list item to the next blade and copy the key as depicted here:
 
 [[images/eventHub2.PNG]]
 
-These values will be stored in your Key Vault.
+Let's refer to these credentials as Event Hub Credentials, SAS policy name and key. They WILL be stored in Key Vault. 
+
+## Key Vault
+
+For each credential that will be stored in Key Vault, create a secret. The name of the secret is your choice. Make the content type of the secret the name of the credential. Make the value of the secret the value of the secret. So:
+
+* REST API credentials, application id -> secret content type.
+* REST API credentials, application key -> secret value.
+* Event Hub credentials, SAS policy name -> secret content type.
+* Event Hub credentials, SAS policy key -> secret value.
+
+As depicted:
+
+[[images/keyVault3.PNG]]
