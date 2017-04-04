@@ -1,6 +1,6 @@
 [[Azure Monitor Addon For Splunk]]
 * [[Operational Overview | operational-overview]]
-* [[Security Overview | security]]
+* [[Security | security]]
 * [[Installation | installation]]
   * [[Windows | installation-on-windows]]
   * [[Linux | installation-on-linux]]
