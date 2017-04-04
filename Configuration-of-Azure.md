@@ -12,8 +12,16 @@ In the blade that pops up, select the subscription and regions that you want to 
 ## Diagnostic Logs
 Diagnostic Logs are configured on a resource-by-resource basis. This configuration can be done in the portal, using the Azure CLI, PowerShell or code. I'll use the portal as an example here. This page gives full details: [How to enable collection of Diagnostic Logs](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs#how-to-enable-collection-of-diagnostic-logs)
 
+Find the Monitoring section of the blade of the resource you want to configure and click 'Diagnostic Logs':
+
 [[images/diagnosticLogs1.PNG]]  
+
+This will look different for different resources. Not all have Metrics and not all have Diagnostic Logs. Some have different options altogether or no Monitoring section at all. The blade that pops up is also resource specific. There will be a link or button for configuration of diagnostic logs such as the following example:
+
 [[images/diagnosticLogs2.PNG]]  
+
+Switch on diagnostics and go through the configuration of the event hub as shown:
+
 [[images/diagnosticLogs3.PNG]]  
 
 ## Metrics
