@@ -34,3 +34,4 @@ This page gives a list of all metrics that are currently supported by Azure Moni
 
 For example:
 
+[[images/metricsTags.PNG]]
