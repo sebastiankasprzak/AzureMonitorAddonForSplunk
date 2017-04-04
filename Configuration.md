@@ -7,5 +7,5 @@ Broadly speaking these configuration tasks are:
 
 ## Azure
 * For the Activity Log, configure it to sink to an Event Hub.
-* For Diagnostic Logs, configure each resource to collect logs and to sink to an Event Hub.
+* For Diagnostic Logs, configure each resource to collect logs and to sink to an Event Hub. Changes are immediate - as soon as a resource is configured to sink to Event Hub, they will start to show up in Splunk in about a minute.
 * For Metrics, add a tag saying which of the available metrics for that resource to send to Splunk. These tags can be modified any time and the changes will show up in Splunk's index immediately.
