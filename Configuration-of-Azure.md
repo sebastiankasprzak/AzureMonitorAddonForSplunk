@@ -26,3 +26,11 @@ Switch on diagnostics and go through the configuration of the event hub as shown
 
 ## Metrics
 
+Full details regarding metrics are on this page: [Overview of metrics in Microsoft Azure](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-metrics). As it states, metrics for resources that emit them are available at all times without any additional configuration. To reduce the volume and avoid collecting data that you don't want, the add-on looks at the Metrics tag associated with each resource. 
+
+**If there is no Metrics tag, there will be no metrics collected for that resource.**
+
+This page gives a list of all metrics that are currently supported by Azure Monitor: [Supported metrics with Azure Monitor](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-supported-metrics). The Metrics tag should be set to a comma-separated list of the metrics that you want to track. If you want all available metrics, set Metrics = *. 
+
+For example:
+
