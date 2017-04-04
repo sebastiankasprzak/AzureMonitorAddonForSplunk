@@ -62,7 +62,7 @@ Let's refer to these credentials as Event Hub Credentials, SAS policy name and k
 
 ## Key Vault
 
-For each credential that will be stored in Key Vault, create a secret. The name of the secret is your choice. Make the content type of the secret the name of the credential. Make the value of the secret the value of the secret. So:
+For each credential that will be stored in Key Vault, create a secret. The name of the secret is your choice. Make the content type of the secret the name of the credential. Make the value of the secret the key of the credential. So:
 
 * REST API credentials, application id -> secret content type.
 * REST API credentials, application key -> secret value.
