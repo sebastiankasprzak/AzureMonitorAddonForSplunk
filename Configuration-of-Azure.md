@@ -12,4 +12,9 @@ In the blade that pops up, select the subscription and regions that you want to 
 ## Diagnostic Logs
 Diagnostic Logs are configured on a resource-by-resource basis. This configuration can be done in the portal, using the Azure CLI, PowerShell or code. I'll use the portal as an example here. This page gives full details: [How to enable collection of Diagnostic Logs](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs#how-to-enable-collection-of-diagnostic-logs)
 
+[[images/diagnosticLogs1.PNG]]  
+[[images/diagnosticLogs2.PNG]]  
+[[images/diagnosticLogs3.PNG]]  
+
 ## Metrics
+
