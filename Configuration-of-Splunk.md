@@ -11,7 +11,7 @@ NOTE: the Logs use eventHub, whereas the Metrics use subscriptionId. The rest of
 
 | Parameter Name | Value | Notes |
 |----------------|-------|-------|
-| name | anything | I use the name of the monitoring target - in my case the name of my subscription |
+| name | string | I use the name of the monitoring target - in my case the name of my subscription |
 | SPNTenantID | \<guid\> | the tenant id of your Azure AD tenant |
 | SPNApplicationID | \<guid\> | the application id of your service principal |
 | SPNApplicationKey | \<password\> | the secret key to the service principal |
