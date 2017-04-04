@@ -24,3 +24,4 @@ NOTE: the Logs use eventHub, whereas the Metrics use subscriptionId. The rest of
 NOTE: When you create an Event Hub, you're really creating an Event Hub Namespace. Within that Event Hub Namespace a number of Event Hubs will be created as your resources emit logs. So, the term "Event Hub" is overloaded. The name of your Event Hub Namespace is the name you used when you created your "Event Hub". Confused?
 
 Example of data input parameters form:  
+[[images/SplunkDataInput.PNG]]
