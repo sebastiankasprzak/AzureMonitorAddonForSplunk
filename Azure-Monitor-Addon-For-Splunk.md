@@ -12,7 +12,7 @@ Here are a few resources if you want to learn more:<br/>
 
 ## Documentation
 * [[Operational Overview | operational-overview]]
-* [[Security Overview | security]]
+* [[Security | security]]
 * [[Installation | installation]]
   * [[Windows | installation-on-windows]]
   * [[Linux | installation-on-linux]]
