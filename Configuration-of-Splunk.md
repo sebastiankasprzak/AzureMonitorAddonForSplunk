@@ -1,3 +1,4 @@
+## Data Inputs
 To create a new instance of one of the data inputs, in Splunk Web go to Settings / Data Inputs. Find the data input that you want in the list:
 * Azure Monitor Activity Log
 * Azure Monitor Diagnostic Logs
