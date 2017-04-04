@@ -44,3 +44,12 @@ Either way, you must:
 * In this case the scope is your subscription.
 * Assign your application to the Reader role on the subscription according to the steps in the document.
 
+These values will be stored in your Key Vault.
+
+## Event Hub
+
+Get the policy name and key from your event hub. When your event hub was created, a policy named 'RootManageSharedAccessKey' was created by default and has the necessary permissions. As shown here:
+[[images/eventHub1.PNG]]
+Click through the list item to the next blade and copy the key as depicted here:
+[[images/eventHub2.PNG]]
+These values will be stored in your Key Vault.
