@@ -14,9 +14,14 @@ There is one complete set of credentials for each instance of data input.
 
 ### Key Vault credentials
 
-All data inputs need this one. 
+All data inputs need this one. You could use only one of these across all of your data input instances, or as many as make sense in your security scheme. This step is performed by the Azure Security Admin persona.
 
 * Follow the steps in this documentation page to create your Service Principal application and key: [Use portal to create Active Directory application and service principal that can access resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal#create-an-active-directory-application).
 * Once you have the application ID and key, continue down the page to get the tenant ID and assign your application to a role.  
 * Step 1 of Assign application to role is 'Navigate to the level of scope you wish to assign the application to'. The scope you want for this Service Principal is your Key Vault. So navigate to your Key Vault in the portal.
-* Assign your application to the Reader role on the Key Vault.
+* Assign your application to the Reader role on the Key Vault according to the steps in the document.
+* Give your application the permission to GET secrets from your Key Vault, as depicted:
+
+[[images/keyVault1.PNG]]
+
+
