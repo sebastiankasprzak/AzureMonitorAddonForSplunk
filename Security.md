@@ -50,13 +50,15 @@ Let's refer to these credentials as REST API Credentials, application id and key
 
 ## Event Hub
 
-Get the policy name and key from your event hub. When your event hub was created, a policy named 'RootManageSharedAccessKey' was created by default and has the necessary permissions. As shown here:
+Get the policy name and key from your event hub. When your event hub was created, a policy named 'RootManageSharedAccessKey' was created by default and has sufficient permissions. As shown here:
 
 [[images/eventHub1.PNG]]
 
 Click through the list item to the next blade and copy the key as depicted here:
 
 [[images/eventHub2.PNG]]
+
+If you want to use a policy with minimum permissions, create one with Listen only.
 
 Let's refer to these credentials as Event Hub Credentials, SAS policy name and key. They WILL be stored in Key Vault. 
 
