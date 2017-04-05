@@ -71,4 +71,4 @@ For each credential that will be stored in Key Vault, create a secret. The name 
 
 As depicted:
 
-[[images/keyVault3.PNG]]
+[[images/keyVault2.PNG]]
