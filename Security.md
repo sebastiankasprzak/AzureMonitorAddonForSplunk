@@ -72,3 +72,13 @@ For each credential that will be stored in Key Vault, create a secret. The name 
 As depicted:
 
 [[images/keyVault2.PNG]]
+
+The smallest set of credentials that will work is:
+* one service principal that is in the Reader role of the subscription and has GET secret permissions in the Key Vault
+* one Event Hub
+
+The smallest recommended set of credentials is:
+* one service principal that is in the Reader role of the Key Vault and has GET secret permissions in the Key Vault
+* one service principal that is in the Reader role of the subscription (cannot access secrets in Key Vault)
+* one Event Hub per subscription/region
+
