@@ -19,3 +19,4 @@ Here are a few resources if you want to learn more:<br/>
 * [[Configuration | configuration]]
   * [[Splunk | configuration-of-splunk]]
   * [[Azure | configuration-of-azure]]
+* [[Release Notes]]
