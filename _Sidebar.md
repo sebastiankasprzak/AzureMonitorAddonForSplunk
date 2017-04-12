@@ -7,3 +7,4 @@
 * [[Configuration | configuration]]
   * [[Splunk | configuration-of-splunk]]
   * [[Azure | configuration-of-azure]]
+* [[Release Notes]]
