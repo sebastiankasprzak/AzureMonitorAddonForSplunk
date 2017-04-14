@@ -1,4 +1,4 @@
-# Installation on Ubuntu
+# Installation on Mac OS X
 
 * Download the SPL package from the packages folder of this repo.
 * In Splunk Web, go to Manage Apps and click "Install app from file". Upload the file you just downloaded.
