@@ -4,6 +4,7 @@
 * [[Installation | installation]]
   * [[Windows | installation-on-windows]]
   * [[Linux | installation-on-linux]]
+  * [[Mac OS X | installation-on-mac-os-x]]
 * [[Configuration | configuration]]
   * [[Splunk | configuration-of-splunk]]
   * [[Azure | configuration-of-azure]]
