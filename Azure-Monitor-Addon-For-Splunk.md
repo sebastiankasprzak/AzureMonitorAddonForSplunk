@@ -16,6 +16,7 @@ Here are a few resources if you want to learn more:<br/>
 * [[Installation | installation]]
   * [[Windows | installation-on-windows]]
   * [[Linux | installation-on-linux]]
+  * [[Mac OS X | installation-on-mac-os-x]]
 * [[Configuration | configuration]]
   * [[Splunk | configuration-of-splunk]]
   * [[Azure | configuration-of-azure]]
