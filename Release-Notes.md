@@ -1,6 +1,4 @@
-Installation tests on Mac OS X are not complete. More work on installing dependencies is needed.
-
-Installation tests on Windows and Ubuntu 14.04 are all good.
+Installation tests on Windows, Mac and Ubuntu 14.04 are all good.
 
 ## version 0.9.10
 * added a local cache of metric definitions. This eliminates a number of round trips. The file is bin/metricDefinitions.json. It may be deleted at any time and will be rebuilt from current definitions. The only time this would be necessary is if an existing metric-emitting resource added a metric.
