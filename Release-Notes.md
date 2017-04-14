@@ -2,6 +2,9 @@ Installation tests on Mac OS X are not complete. More work on installing depende
 
 Installation tests on Windows and Ubuntu 14.04 are all good.
 
+## version 0.9.10
+* added a local cache of metric definitions. 
+
 ## version 0.9.9
 * encryption of key vault credentials
 
