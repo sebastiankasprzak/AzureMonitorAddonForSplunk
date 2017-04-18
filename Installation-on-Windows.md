@@ -6,7 +6,7 @@
 ## Python Dependencies
 * Open a command window and execute the following:
   * Install Python 2.7. Here's the [link](https://www.python.org/downloads/release/python-2712/).
-  * `pip install PyJWT`  
+  * `pip install` puts files into `c:\python27\lib\site-packages` regardless of where you execute it from.
   * `pip install adal` 
   * `pip install splunk-sdk` 
   * `pip install futures` 
