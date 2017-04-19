@@ -1,5 +1,9 @@
 Installation tests on Windows, Mac and Ubuntu 14.04 are all good.
 
+## version 1.0.0
+* a few small bugs
+* conform more closely to Splunk Certified requirements
+
 ## version 0.9.10
 * added a local cache of metric definitions. This eliminates a number of round trips. The file is bin/metricDefinitions.json. It may be deleted at any time and will be rebuilt from current definitions. The only time this would be necessary is if an existing metric-emitting resource added a metric.
 
