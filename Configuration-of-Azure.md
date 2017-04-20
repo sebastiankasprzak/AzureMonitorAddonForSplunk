@@ -38,7 +38,7 @@ For example:
 
 [[images/metricsTags2.PNG]]
 
-It may seem expedient to simply set Metrics:* for all resources and let the add-on sort out the details. And in a perfect world, this would work fine. The add-on doesn't care. However, there are limits and throttles around just about everything in computing. One of these is the length of the query string that can be sent to the ARM api's. The Redis Cache resource has quite a number of available metrics (for example). Requesting all available metrics for Redis Cache blows past the query string limits. Best practice is in cases like this to limit the number of metrics requested to a top-level set for the typical case, then drill down as the situation demands.  
+It may seem expedient to simply set Metrics:* for all resources and let the add-on sort out the details. And in a perfect world, this would work fine. The add-on doesn't care. However, there are limits and throttles around just about everything in computing. One of these is the length of the query string that can be sent to the ARM api's. The Redis Cache resource has quite a number of available metrics (for example). Requesting all available metrics for Redis Cache blows past the query string limits (2048 bytes). Best practice is in cases like this to limit the number of metrics requested to a top-level set for the typical case, then drill down as the situation demands.  
 
 For Redis, the 'typical case' metrics are: 
  
