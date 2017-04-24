@@ -12,8 +12,6 @@
       `python get-pip.py`  
   * Install developer headers as follows:  (required for installation of cryptography)  
     `apt-get install build-essential libssl-dev libffi-dev python-dev`  
-  * `pip install PyJWT`  
-  * `pip install cryptography`
   * `pip install adal` 
   * `pip install splunk-sdk` 
   * `pip install futures` 
