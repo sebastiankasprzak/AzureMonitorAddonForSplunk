@@ -1,0 +1,1 @@
+In version 1.1.0, a special [scripted input](http://docs.splunk.com/Documentation/Splunk/latest/AdvancedDev/ScriptedInputsIntro) was added to the 3 existing inputs. The job of this scripted input is to install Python and Node.js dependencies for this add-on. 
