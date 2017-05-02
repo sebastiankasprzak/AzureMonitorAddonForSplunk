@@ -4,7 +4,12 @@ The implementation of this scripted input involves two artifacts:
 * a new stanza in default/inputs.conf
 * a shell script - bin/linux_dependencies.sh
 
-When the SPL is initially installed, Splunk will still issue the warning about inability to initialize the add-on. A Splunk restart is required for the script to run successfully. It runs as root.  
+When the SPL is initially installed, Splunk will still issue the warning about inability to initialize the add-on: 
+```
+Unable to initialize modular input "azure_monitor_metrics" defined inside the app "TA-Azure_Monitor"
+```
+
+A Splunk restart is required for the script to run successfully. It runs as root.  
 
 At a high level, the script does the following:
 * apt-get update
