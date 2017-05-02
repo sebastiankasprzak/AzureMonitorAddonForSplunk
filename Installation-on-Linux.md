@@ -3,7 +3,7 @@
 * You will get a message warning you that the add-on could not be initialized because dependencies are not included in the package. There are both Python and Node.js dependencies.
 
 ## Version 1.1.0+ Dependency Installation
-In version 1.1.0, a special [scripted input](http://docs.splunk.com/Documentation/Splunk/latest/AdvancedDev/ScriptedInputsIntro) was added that runs only on restart of Splunk. It was written to check at each step along the way to see if that step is necessary. More details here.  
+In version 1.1.0, a special [scripted input](http://docs.splunk.com/Documentation/Splunk/latest/AdvancedDev/ScriptedInputsIntro) was added that runs only on restart of Splunk. It was written to check at each step along the way to see if that step is necessary. More details [[here|Linux Dependency Installation]].  
 
 ## Python Dependencies
 * The alternative to doing the following steps manually is to use the shell script `am_depends_ubuntu.sh` in the packages folder. I find the best way to do it is:
