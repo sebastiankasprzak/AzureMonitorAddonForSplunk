@@ -24,4 +24,8 @@ At a high level, the script does the following:
 * install splunk-sdk
 * install futures (a Python package that implements parallel processing)
 
-The script takes about 5 minutes to run. If you are tracking (index=_internal sourcetype=ta:installer), the last line of the script will say "Logging break - copy libraries to add-on folder". At this point, disable/enable the add-on and proceed with configuration of the data inputs.
+The script takes about 5 minutes to run. If you are tracking (index=_internal sourcetype=ta:installer), the last line of the script will say "Logging break - copy libraries to add-on folder". At this point, disable/enable the add-on and proceed with configuration of the data inputs.  
+
+After the script has run successfully once, future restarts of Splunk will of course run it again. You'll see the logging breaks in sourcetype ta:installer as before. But the logs are mostly empty because the tests prevent re-execution of the steps. Some of the tests are a little verbose, but they take no time to speak of.  
+
+If you want to prevent re-runs of the script, remove the stanza from default/inputs.conf. However, doing this will prevent future versions of the dependency script from updating dependencies as they change in the future.  
