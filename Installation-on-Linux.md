@@ -6,7 +6,8 @@
 * The alternative to doing the following steps manually is to use the shell script `am_depends_ubuntu.sh` in the packages folder. I find the best way to do it is:
   * `sudo su`
   * `cd ~`
-  * `./am_depends_ubuntu.sh`  
+  * `./am_depends_ubuntu.sh`
+  * `exit`  
 * Open a terminal window to the VM and execute the following:
   * `apt-get update`
   * Install the latest version of pip. If you use the version that comes with "apt-get install python-pip", the installation of cryptography won't work.  
