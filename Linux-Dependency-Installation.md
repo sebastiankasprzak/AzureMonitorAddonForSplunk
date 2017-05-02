@@ -15,5 +15,4 @@ At a high level, the script does the following:
 * install packages required by splunk-sdk
 * install Azure Directory Authentication Library (adal)
 * install futures (a Python package that implements parallel processing)
-
-* 
+ 
