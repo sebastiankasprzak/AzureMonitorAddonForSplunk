@@ -6,7 +6,10 @@ The implementation of this scripted input involves two artifacts:
 
 When the SPL is initially installed, Splunk will still issue the warning about inability to initialize the add-on: 
 ```
-Unable to initialize modular input "azure_monitor_metrics" defined inside the app "TA-Azure_Monitor"
+Unable to initialize modular input "azure_monitor_metrics"  
+defined inside the app "TA-Azure_Monitor":  Introspecting  
+scheme=azure_monitor_metrics: script running failed  
+(exited with code 1).  
 ```
 
 A Splunk restart is required for the script to run successfully. It runs as root.  
