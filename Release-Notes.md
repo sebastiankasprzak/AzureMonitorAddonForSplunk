@@ -1,5 +1,12 @@
 Installation tests on Windows, Mac and Ubuntu 14.04 are all good.
 
+## version 1.2.0
+* removed the auto-installation feature introduced in 1.1.0 due to customer feedback
+* slight fix to installation script am_depends_ubuntu.sh
+
+## version 1.1.0
+* added a pseudo-data input (script) that auto-installs the add-on in an Ubuntu environment
+
 ## version 1.0.0
 * a few small bugs
 * conform more closely to Splunk Certified requirements
