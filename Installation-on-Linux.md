@@ -2,9 +2,6 @@
 * In Splunk Web, go to Manage Apps and click "Install app from file". Upload the file you just downloaded.
 * You will get a message warning you that the add-on could not be initialized because dependencies are not included in the package. There are both Python and Node.js dependencies.
 
-## Version 1.1.0+ Dependency Installation
-In version 1.1.0, a special [scripted input](http://docs.splunk.com/Documentation/Splunk/latest/AdvancedDev/ScriptedInputsIntro) was added that runs once on restart of Splunk. It was written to check at each step along the way to see if that step is necessary. More details [[here|Linux Dependency Installation]]. **With this version, it is no longer necessary to install dependencies as depicted below.**
-
 ## Python Dependencies
 * The alternative to doing the following steps manually is to use the shell script `am_depends_ubuntu.sh` in the packages folder. I find the best way to do it is:
   * `sudo su`
@@ -18,7 +15,8 @@ In version 1.1.0, a special [scripted input](http://docs.splunk.com/Documentatio
       `wget https://bootstrap.pypa.io/get-pip.py`  
       `python get-pip.py`  
   * Install developer headers as follows:  (required for installation of cryptography)  
-    `apt-get install build-essential libssl-dev libffi-dev python-dev`  
+    `apt-get install build-essential libssl-dev libffi-dev python-dev` 
+  * `pip install six -I`
   * `pip install adal` 
   * `pip install splunk-sdk` 
   * `pip install futures` 
