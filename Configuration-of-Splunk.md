@@ -8,7 +8,7 @@ Drill in and click the "Add New" button, or click "Add New" on the far right in 
 
 The parameters are:  
 
-NOTE: The SPN creds are those required to get into the key vault. The subscriptionID, vaultName, secretName, secretVersion are required to address the secret containing the creds that can actually do the work.
+NOTE: The Metrics data input is the only one that uses subscriptionID. The Activity Logs and Diagnostic Logs are the only ones that use an event hub. The rest of the fields are shared by both. 
 
 | Parameter Name | Value | Notes |
 |----------------|-------|-------|
