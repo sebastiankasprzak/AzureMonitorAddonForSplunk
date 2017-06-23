@@ -27,6 +27,12 @@ NOTE: When you create an Event Hub, you're really creating an Event Hub Namespac
 Example of data input parameters form:  
 [[images/SplunkDataInput.PNG]]
 
+Here's what it looks like getting the key vault secret's version:  
+[[images/keyVault3.PNG]]
+
+And here's a sample of a filled in data input configuration panel:  
+[[images/SplunkDataInput2.png]]
+
 ## JSON lookup files
 
 ### logCategories.json
