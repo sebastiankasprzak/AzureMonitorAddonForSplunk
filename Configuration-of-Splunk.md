@@ -1,5 +1,6 @@
 ## Selecting your cloud
-(version 1.2.3)
+(version 1.2.3)  
+
 If you operate in a cloud other than Azure Public Cloud, you can select your cloud by editing BOTH of azure_activity_log.sh AND azure_diagnostic_logs.sh, which are located in TA-Azure_Monitor/bin. There are comments in the files that direct you on how to make the edits.
 
 At this time, the available clouds are: Azure Public Cloud, Azure US Government, Azure China Cloud, Azure Germany Cloud.
@@ -42,9 +43,11 @@ And here's a sample of a filled in data input configuration panel:
 ## JSON lookup files
 
 ### logCategories.json
-Found in TA-Azure_Monitor/bin/app
+Found in TA-Azure_Monitor/bin/app  
 
-This file contains a list of the log categories supported by Azure Monitor. Each one is paired with a sourcetype. Feel free to adjust the sourcetypes to your own needs. If you delete a line, the sourcetype will be the default sourcetype that you entered in the data input settings.
+** impacts diagnostic logs only **  
+
+This file contains a list of the log categories for diagnostic logs that are supported by Azure Monitor. Each one is paired with a sourcetype. Feel free to adjust the sourcetypes to your own needs. If you delete a line, the sourcetype for that log category will be the default sourcetype that you entered in the data input settings.  
 
 ### hubs.json
 Found in TA-Azure_Monitor/bin/app
@@ -54,4 +57,6 @@ This file contains a list of the event hubs used by diagnostic logs, which equat
 ### sourcetypes.json
 Found in TA-Azure_Monitor/bin
 
-This file contains a list of resource types that emit diagnostic logs and the sourcetype for each. Add lines as needed if you want distinct sourcetypes for your Azure resource types. Or delete lines if you want to use the default you entered in data input settings. This has no impact on Activity Log; only the sourcetypes for Diagnostic Logs are impacted.
+** impacts metrics only **  
+
+This file contains a list of resource types that emit metrics and the sourcetype for each. Add lines as needed if you want distinct sourcetypes for your Azure resource types. Or delete lines if you want to use the default you entered in data input settings. This has no impact on logs; only the sourcetypes for metrics are impacted.
