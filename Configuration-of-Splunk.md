@@ -50,6 +50,7 @@ Found in TA-Azure_Monitor/bin/app
 This file contains a list of the log categories for diagnostic logs that are supported by Azure Monitor. Each one is paired with a sourcetype. Feel free to adjust the sourcetypes to your own needs. If you delete a line, the sourcetype for that log category will be the default sourcetype that you entered in the data input settings.  
 
 ** with regards to Activity Log sourcetype **  
+(version 1.2.3)  
 
 Activity Log messages are given distinctive sourcetype by the code as follows:  
   
