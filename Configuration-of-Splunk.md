@@ -1,4 +1,5 @@
 ## Selecting your cloud
+(version 1.2.3)
 If you operate in a cloud other than Azure Public Cloud, you can select your cloud by editing BOTH of azure_activity_log.sh AND azure_diagnostic_logs.sh, which are located in TA-Azure_Monitor/bin. There are comments in the files that direct you on how to make the edits.
 
 At this time, the available clouds are: Azure Public Cloud, Azure US Government, Azure China Cloud, Azure Germany Cloud.
