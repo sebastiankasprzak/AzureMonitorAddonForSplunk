@@ -52,12 +52,15 @@ This file contains a list of the log categories for diagnostic logs that are sup
 ** with regards to Activity Log sourcetype **  
 
 Activity Log messages are given distinctive sourcetype by the code as follows:  
-* Administrative - amal:administrative
-* Service Health - amal:serviceHealth
-* Resource Health - amal:resourceHealth
-* Security - amal:security
-* Azure Security Center Recommendation - amal:ascRecommendation
-* Azure Security Center Alert - amal:ascAlert  
+  
+| Event Type | sourcetype |
+|------------|------------|
+| Administrative | amal:administrative |  
+| Service Health | amal:serviceHealth|
+| Resource Health | amal:resourceHealth |
+| Security | amal:security |
+| Azure Security Center Recommendation | amal:ascRecommendation |
+| Azure Security Center Alert | amal:ascAlert |
 
 ### hubs.json
 Found in TA-Azure_Monitor/bin/app
