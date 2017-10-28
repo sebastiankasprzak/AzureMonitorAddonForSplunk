@@ -13,7 +13,7 @@ Not all resources log via Azure Monitor. Here's a list of those that do: [Diagno
   
 The Activity Log is a subscription-wide log of operations on all resources in the subscription, such as create/update/delete. It is configured separately in the add-on but works the same way as Diagnostic Logs (i.e. there is an event hub in a namespace, etc).  
 
-In addition to CRUD actions, the Activity Log also contains Azure Security Center Recommendations and Alerts, Service Health, Security, and Autoscaling events.  
+In addition to CRUD actions, the Activity Log also contains Azure Security Center Recommendations and Alerts, Service Health, Security, and Autoscaling events. See [here](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-activity-log-schema) for details.  
 
 [[Configuration | configuration]]
 
