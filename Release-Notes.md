@@ -1,4 +1,6 @@
-Installation tests on Windows, Mac and Ubuntu 14.04 are all good.
+## version 1.2.3
+* add ability to select which cloud you're operating in. Options are: Azure Public Cloud, Azure US Government, Azure China Cloud, Azure Germany Cloud. The selection is done by modification of an environment variable in azure_activity_log.sh and azure_diagnostics_logs.sh files.
+* add sourcetype configuration for Activity Log messages. Currently, the configuration is source code based.
 
 ## version 1.2.2
 * fix a bug with checkpoints when running multiple instances. 
