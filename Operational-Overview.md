@@ -9,10 +9,11 @@ Saving the details for later, the following must be in place to see logs appear 
 * Configure each resource with event hub namespace  
 * Configure the add-on to read logs from the event hub namespace
 
-Not all resources log via Azure Monitor. Here's a list: [Diagnostic Logs](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs#supported-log-categories-per-resource-type)  
-The Activity Log is a subscription-wide log of operations on all resources in the subscription, such as create/update/delete. It is configured separately in the add-on but works the same way as Diagnostic Logs.  
+Not all resources log via Azure Monitor. Here's a list of those that do: [Diagnostic Logs](https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-diagnostic-logs-schema)  
+  
+The Activity Log is a subscription-wide log of operations on all resources in the subscription, such as create/update/delete. It is configured separately in the add-on but works the same way as Diagnostic Logs (i.e. there is an event hub in a namespace, etc).  
 
-In addition to CRUD actions, the Activity Log also contains Azure Security Center Recommendations and Alerts.  
+In addition to CRUD actions, the Activity Log also contains Azure Security Center Recommendations and Alerts, Service Health, Security, and Autoscaling events.  
 
 [[Configuration | configuration]]
 
