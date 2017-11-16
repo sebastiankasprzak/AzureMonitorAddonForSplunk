@@ -21,14 +21,15 @@
   * `pip install splunk-sdk` 
   * `pip install futures` 
 * The preceding steps brought the required packages to your VM. They need to be in the bin directory of the add-on because of the way that PYTHONPATH is defined by the Splunk environment.  
-* In your terminal window:  
-  * `cp /usr/local/lib/python2.7/dist-packages/six.py $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
-  * `cp -R /usr/local/lib/python2.7/dist-packages/splunklib $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
-  * `cp -R /usr/local/lib/python2.7/dist-packages/splunklib $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin/app`
-  * `cp -R /usr/local/lib/python2.7/dist-packages/concurrent $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
-  * `cp -R /usr/local/lib/python2.7/dist-packages/adal $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
-  * `cp -R /usr/local/lib/python2.7/dist-packages/jwt $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
-  * `cp -R /usr/local/lib/python2.7/dist-packages/dateutil $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
+* In your terminal window:
+  * `export SPLUNK_HOME=/opt/splunk`
+  * `export PYTHON_SITEPACKAGES=/usr/local/lib/python2.7/dist-packages`
+  * `cp $PYTHON_SITEPACKAGES/six.py $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
+  * `cp -R $PYTHON_SITEPACKAGES/splunklib $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
+  * `cp -R $PYTHON_SITEPACKAGES/concurrent $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
+  * `cp -R $PYTHON_SITEPACKAGES/adal $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
+  * `cp -R $PYTHON_SITEPACKAGES/jwt $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
+  * `cp -R $PYTHON_SITEPACKAGES/dateutil $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin`
 
 ## Node.js Dependencies
 * Open a terminal window on the Splunk Enterprise VM.
