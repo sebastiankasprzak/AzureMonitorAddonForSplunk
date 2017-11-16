@@ -32,9 +32,18 @@
 
 ## Node.js Dependencies
 * Open a terminal window on the Splunk Enterprise VM.
+
+### Ubuntu 14+
 * If `npm` is not installed on the system (typical of a new Splunk Enterprise box):
   * `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
   * `apt-get install -y nodejs`
+* `cd $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin/app`
+* `npm install`
+
+### RHEL 7
+* If `npm` is not installed on the system (typical of a new Splunk Enterprise box):
+  * curl --silent --location https://rpm.nodesource.com/setup_6.x | sudo bash -
+  * yum -y install nodejs
 * `cd $SPLUNK_HOME/etc/apps/TA-Azure_Monitor/bin/app`
 * `npm install`
 
