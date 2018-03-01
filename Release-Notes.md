@@ -1,3 +1,7 @@
+## version 1.2.5
+* added AAD logs, Audit and Sign In, along with two new sourceTypes to accommodate. 
+* improved handling of "errors" that arise when polling the hubs for existence. These "errors" only surface in splunkd.log when ExecProcessor logging is set to 'debug' level.
+
 ## version 1.2.4
 * updated the RHEL installation script  
 
