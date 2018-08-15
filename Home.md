@@ -20,4 +20,7 @@ Here are a few resources if you want to learn more:<br/>
 * [[Configuration | configuration]]
   * [[Splunk | configuration-of-splunk]]
   * [[Azure | configuration-of-azure]]
+* [[MSI Authentication | msi]]
 * [[Release Notes]]
+
+Note: If you are planning on using MSI authentication, then use [[MSI | msi]] wiki page as a starting point.
